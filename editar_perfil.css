@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(0, 255, 150);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.editar-perfil-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(0, 150, 100);
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.senha-container {
+    position: relative;
+    width: 100%;
+}
+
+.senha-container input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px; /* espaço para o botão do olhinho */
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box; /* importante para não ultrapassar o container */
+}
+
+.olhinho {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.olhinho {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form .btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: 0.2s;
+}
+
+form .btn:hover {
+    background-color: rgb(0, 255, 150);
+}
+
+form .btn.red {
+    background-color: rgb(255, 150, 150);
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}

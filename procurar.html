@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procurar Pets</title>
+    <link rel="stylesheet" href="procurar.css">
+</head>
+<body>
+
+<header>
+    <div class="topo">
+        <h1 class="titulo">Procurar Pets</h1>
+        <button id="btnVoltar" class="btn-voltar">Voltar</button>
+    </div>
+</header>
+
+<main>
+    <div class="conteudo-branco">
+        <div class="filtros">
+            <label>Animal:</label>
+            <select id="filtroTipo">
+                <option value="">Todos</option>
+                <option value="Cachorro">Cachorro</option>
+                <option value="Gato">Gato</option>
+            </select>
+
+            <label>Raça:</label>
+            <input type="text" id="filtroRaca" placeholder="Digite a raça">
+
+            <label>Local:</label>
+            <input type="text" id="filtroLocal" placeholder="Digite o local">
+
+            <button id="btnFiltrar" class="btn">Filtrar</button>
+        </div>
+
+        <div id="resultado" class="lista"></div>
+    </div>
+</main>
+
+<script src="procurar.js"></script>
+</body>
+</html>
