@@ -17,7 +17,7 @@ document.getElementById('form-cadastro').addEventListener('submit', function (ev
         localStorage.setItem('data', dataFormatada);
         localStorage.setItem('senha', senha);
 
-        msg.style.color = 'green';
+        msg.style.color = 'white';
         msg.textContent = '✅ Senhas conferem! Redirecionando para login...';
 
         setTimeout(() => {
@@ -27,4 +27,5 @@ document.getElementById('form-cadastro').addEventListener('submit', function (ev
         msg.style.color = 'red';
         msg.textContent = '❌ As senhas não coincidem. Tente novamente.';
     }
+
 });
