@@ -12,9 +12,9 @@ Funcionalidades
 
 Tecnologias Utilizadas
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla JS)  
+- HTML
+- CSS
+- JavaScript  
 - LocalStorage para armazenar informações dos usuários e pets  
 
 Como Usar
@@ -22,7 +22,7 @@ Como Usar
 1. Faça o cadastro no site.  
 2. Cadastre seus pets.  
 3. Explore as funcionalidades de busca ou defina locais de encontro.  
-4. Utilize o botão “Editar Perfil” para atualizar suas informações.  
+4. Utilize o botão “Alterar Informações” para atualizar suas informações.  
 5. Se precisar, entre em contato com os administradores pelo botão “Contate-nos”.  
 
 ---
