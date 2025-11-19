@@ -22,8 +22,4 @@ Como Usar
 2. Cadastre seus pets.  
 3. Explore as funcionalidades de busca ou defina locais de encontro.  
 4. Utilize o botão “Alterar Informações” para atualizar suas informações.  
-5. Se precisar, entre em contato com os administradores pelo botão “Contate-nos”.  
-
----
-
-O PetMatch é perfeito para conectar pessoas que amam animais, organizar passeios e facilitar encontros entre pets. Um espaço feito para você e seus companheiros de quatro patas! 🐶🐱
+5. Se precisar, entre em contato com os administradores pelo botão “Contate-nos”. 
