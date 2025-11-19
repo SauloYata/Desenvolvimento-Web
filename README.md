@@ -1,14 +1,14 @@
 # PetMatch 🐾
 
-O PetMatch é um site feito para quem ama animais e quer facilitar a vida com seus pets. Aqui, você pode cadastrar seus bichinhos, organizar encontros, procurar outros pets por tipo, raça ou localização, e gerenciar seu perfil de forma prática e segura.
+O PetMatch é um site feito para quem ama animais e quer facilitar a vida com seus pets. Aqui, você pode cadastrar seus pets, organizar encontros, procurar outros pets por tipo, raça ou localização, e gerenciar seu perfil de forma prática e segura.
 
 Funcionalidades
 
 - Cadastro de Pets: Adicione informações como nome, tipo (cachorro ou gato), idade, raça e local de encontro.
 - Gerenciamento de Perfil: Faça login, altere seus dados e sua senha com facilidade.
-- Busca Inteligente: Filtre pets por tipo, raça ou localização, mostrando resultados relevantes ou avisando se nada for encontrado.
-- Contato: Envie mensagens para os administradores através do botão “Contate-nos”.
-- Design Responsivo: Interface organizada com áreas em branco, botões claros e navegação intuitiva.
+- Busca Inteligente: Filtre pets por tipo, raça ou localização, mostrando resultados relevantes.
+- Suporte: Envie mensagens para os administradores através do botão “Contate-nos”.
+- Design Responsivo: Interface organizada com áreas em branco, botões claros e intuitiva.
 
 Tecnologias Utilizadas
 
