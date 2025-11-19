@@ -6,8 +6,8 @@ Funcionalidades
 
 - Cadastro de Pets: Adicione informações como nome, tipo (cachorro ou gato), idade, raça e local de encontro.
 - Gerenciamento de Perfil: Faça login, altere seus dados e sua senha com facilidade.
-- Busca Inteligente: Filtre pets por tipo (Cachorro ou Gato), raça ou localização, mostrando resultados relevantes.
-- Suporte: Envie mensagens para os administradores através do botão “Contate-nos”.
+- Busca Inteligente: Filtre pets por tipo (Cachorro ou Gato), raça ou localização de encontro, mostrando resultados relevantes.
+- Suporte: Envie mensagens para o Suporte através do botão “Contate-nos”.
 - Front Responsivo: Interface organizada com áreas em branco, botões claros e intuitiva.
 
 Tecnologias Utilizadas
