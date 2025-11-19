@@ -15,7 +15,6 @@ Tecnologias Utilizadas
 - HTML
 - CSS
 - JavaScript  
-- LocalStorage para armazenar informações dos usuários e pets  
 
 Como Usar
 
