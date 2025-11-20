@@ -96,3 +96,35 @@ body::before {
     backdrop-filter: blur(2px);
     z-index: -1;
 }
+
+/* RESPONSIVIDADE */
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+        background-attachment: scroll; /* evita bug no mobile */
+    }
+
+    .caixa-formulario {
+        padding: 20px;
+        max-width: 95%;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .caixa-formulario label {
+        font-size: 14px;
+    }
+
+    .caixa-formulario input,
+    .caixa-formulario button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
+}
