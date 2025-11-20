@@ -46,24 +46,11 @@ form input {
 .senha-container input {
     width: 100%;
     padding: 10px;
-    padding-right: 40px; /* espaço para o botão do olhinho */
+    padding-right: 40px;
     border: 1px solid #bbb;
     border-radius: 6px;
     font-size: 15px;
-    box-sizing: border-box; /* importante para não ultrapassar o container */
-}
-
-.olhinho {
-    position: absolute;
-    right: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    font-size: 18px;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box;
 }
 
 .olhinho {
@@ -104,4 +91,59 @@ form .btn.red {
     margin-top: 10px;
     font-weight: bold;
     text-align: center;
+}
+
+/*  RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+        height: auto; /* evita que estoure */
+        align-items: flex-start;
+    }
+
+    .editar-perfil-container {
+        width: 100%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    form input,
+    .senha-container input {
+        font-size: 14px;
+        padding: 9px;
+    }
+
+    form .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .olhinho {
+        font-size: 16px;
+        right: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .editar-perfil-container {
+        padding: 15px;
+    }
+
+    form input,
+    .senha-container input {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    form .btn {
+        padding: 9px;
+        font-size: 13px;
+    }
+
+    .olhinho {
+        font-size: 15px;
+    }
 }
