@@ -139,3 +139,79 @@ main {
     margin: 8px 0;
     padding: 8px;
 }
+
+/* RESPONSIVIDADE */
+
+/* Tablets e telas médias */
+@media (max-width: 950px) {
+
+    .topo,
+    main {
+        width: 95%;
+    }
+
+    .titulo {
+        font-size: 32px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+
+    .topo {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .botoes-topo {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .botoes-topo button {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    .botoes-controle {
+        flex-direction: column;
+    }
+
+    .botoes-controle .btn {
+        width: 100%;
+    }
+
+    .conteudo-branco {
+        padding: 15px;
+    }
+
+    main {
+        width: 95%;
+        margin-top: 15px;
+    }
+}
+
+/* Celulares muito pequenos */
+@media (max-width: 400px) {
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
