@@ -75,3 +75,75 @@ body {
     font-weight: bold;
     margin-top: 10px;
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 950px) {
+
+    .topo,
+    .conteudo-branco {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .topo {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .btn-voltar {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .topo,
+    .conteudo-branco {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .titulo {
+        font-size: 22px;
+    }
+
+    .btn,
+    .btn-voltar {
+        width: 100%;
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .conteudo-branco input,
+    .conteudo-branco textarea {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .conteudo-branco {
+        padding: 12px;
+    }
+
+    .btn,
+    .btn-voltar {
+        font-size: 12px;
+    }
+}
