@@ -85,3 +85,48 @@ body {
     margin-bottom: 10px;
     border: 1px solid black;
 }
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 950px) {
+    .topo,
+    .conteudo-branco {
+        width: 95%;
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .topo {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .btn-voltar {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .conteudo-branco {
+        padding: 15px;
+    }
+
+    .filtros {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtros input,
+    .filtros select {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
